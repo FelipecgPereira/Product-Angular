@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo{
+    max-width: 70px;
+}
+.hearder .title-group{ 
+    padding-left: 25px;
+}
+.hearder .title-group i{ 
+    padding-right: 25px;
+}

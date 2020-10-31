@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic Azul",
+      "price": 2.5
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12500.5
+    },
+    {
+      "id": 3,
+      "name": "Xiomi A4",
+      "price": 2780.5
+    },
+    {
+      "name": "Geladeira consul",
+      "price": 1590.35,
+      "id": 4
+    }
+  ]
+}
