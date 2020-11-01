@@ -37,14 +37,14 @@ Caso utilize o gerenciador de pacotes Yarn, execulte o sequinte comando
 
 > yarn start
 
-### Features
+## Features :dart:
 
 - [x] Cadastro de produtos
 - [x] Atualização de produtos
 - [x] Leitura de produtos
 - [x] Exclusão de produtos
 
-### 🛠 Tecnologias
+##  Tecnologias :dart:
 As seguintes ferramentas foram usadas na construção do projeto:
 - [Angular](https://angular.io/)
 
