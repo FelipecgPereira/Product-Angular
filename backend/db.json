@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Xiomi A4",
       "price": 2780.5
+    },
+    {
+      "name": "Papel",
+      "price": "50.80",
+      "id": 4
     }
   ]
 }
