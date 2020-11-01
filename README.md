@@ -8,9 +8,9 @@
 
 
 ## Sobre Aplicação :dart:
-  Projeto contruido em Angular, com objtivo de solidificar conceitos que fazem partes do framework e compreender como é o cinclo de vida
+  Projeto contruido em Angular, com objetivo de solidificar conceitos que fazem partes do framework e compreender como é o cinclo de vida
   de uma aplicação contruida em Angular. Os conceitos que foram abordados foram o que são os componentes, diretivas, rotas, pipes,
-  observables e services.
+  observables e servicesque fazem parte elemental.
   
 ## Back-End :dart:
 
