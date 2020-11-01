@@ -1,7 +1,8 @@
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from './../product.service';
-import { Router, ActivatedRoute } from '@angular/router';
-import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
+import { Route } from '@angular/compiler/src/core';
+import { Product } from '../product.model';
 
 @Component({
   selector: 'app-product-delete',
@@ -11,21 +12,21 @@ import { Component, OnInit } from '@angular/core';
 export class ProductDeleteComponent implements OnInit {
 
   product: Product
-  constructor(private productService: ProductService,
-    private router: Router, 
-    private route: ActivatedRoute)
-     { }
+  constructor(
+    private productService: ProductService,
+    private router: Router,
+    private route: ActivatedRoute ) { }
 
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id');
-    this.productService.readById(id).subscribe(pruduct=>{
-      this.product = pruduct
+    this.productService.readById(id).subscribe(product =>{
+      this.product = product
     })
   }
 
-  deleteProduct(): void{
+  deleteProduct():void{
     this.productService.delete(this.product.id).subscribe(()=>{
-      this.productService.showMessage('Produto deletado com sucesso')
+      this.productService.showMessage('Produto Deletado com sucesso.')
       this.router.navigate(['/products'])
     })
   }
